@@ -148,24 +148,125 @@
     justify-content: space-between;
     align-items: center;
     background-color: #FDEDF1;
+    margin-top: 150px;
+    padding: 100px 0px;
 }
-
+.hot-deal-content{
+    padding-left: 200px;
+    text-align: center;
+    margin-left: 180px;
+    padding-right: 120px;
+}
+.hot-deal-content h2{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.hot-deal-content p{
+    color: #505050;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.hot-deal img{
+    margin-right: 180px;
+    padding-right: 250px;
+}
+.hot-deal-span{
+    color: #E55473;
+}
 /* instagram section */
 
+.insta-section{
+    margin: 150px 180px 0px;
+    text-align: center;
+}
+.insta-section h2{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.insta-section p{
+    color: #505050;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    width: 594px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
 .instagram-image{
     display: flex;
     justify-content: space-between;
+}
+.instagram-image img{
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.367);
 }
 
 /* subscription section */
 
 .subscription{
     background-image: url('../image/s6bgimage.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 150px 180px 0px;
+    height: 449px;
+    text-align: center;
+    padding: 100px 0px;
+}
+.subscription h2{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.subscription p{
+    color: #505050;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 48px;
+    margin-top: -20px;
+}
+.mail-box{
+    border: 0;
+    border-radius: 8px;
+    height: 64px;
+    width: 700px;
+    margin-right: 20px;
 }
 
 /* footer section */
 
-.footer{
+.foot-section{
+    color: white;
     background-color: #111010;
-    align-items: center;
+    height: 449px;
+    text-align: center;
+    margin-top: 150px;
+    padding: 100px 0px;
+}
+.foot-span{
+    color: #E55473;
+}
+.foot-section h2{
+    font-size: 48px;
+    font-weight: 800;
+}
+.foot-section p{
+    width: 625px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #DADADA;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: -15px;
+    margin-bottom: 30px;
+}
+.foot-section small{
+    font-size: 16px;
+    font-weight: 400;
+    color: #707070;
 }
