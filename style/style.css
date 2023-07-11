@@ -4,3 +4,46 @@
     align-items: center;
     background-color: #FDEDF1;
 }
+
+/* pick flower section  */
+
+.pick-flower-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Feature section */
+
+.feature-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* hot deal section */
+
+.hot-deal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FDEDF1;
+}
+
+/* instagram section */
+
+.instagram-image{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* subscription section */
+
+.subscription{
+    background-image: url('../image/s6bgimage.png');
+}
+
+/* footer section */
+
+.footer{
+    background-color: #111010;
+    align-items: center;
+}
