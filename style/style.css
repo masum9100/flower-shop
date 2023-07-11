@@ -203,6 +203,28 @@
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.367);
 }
 
+/* extra section */
+
+.extra-section{
+    display: flex;
+    justify-content: space-between;
+    background-color: #D9EFF1;
+    margin-top: 150px;
+    text-align: center;
+    padding: 0px 200px 30px;
+}
+.extra-section h3{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.extra-section p{
+    color: #505050;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: -30px;
+}
+ 
 /* subscription section */
 
 .subscription{
